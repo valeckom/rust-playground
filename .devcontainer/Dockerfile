@@ -4,8 +4,11 @@ WORKDIR /usr/src/myapp
 
 RUN apt-get -qq update \
     && apt-get -qqy --no-install-recommends install \
-    curl \
     apt-utils \
+    curl \
+    unzip \
+    procps \
+    git-all \
     pkg-config \
     libssl-dev
 
