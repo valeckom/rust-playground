@@ -3,10 +3,9 @@
 {
   "name": "Rust Playground",
 
-  "image": "rust:latest"
+//  "image": "rust:latest"
 
-//  "build": {
-//    "dockerfile": "./Dockerfile",
-//    "context": "."
-//  },
+  "build": {
+    "dockerfile": ".devcontainer/Dockerfile",
+  },
 }
