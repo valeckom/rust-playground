@@ -6,7 +6,6 @@
 //  "image": "rust:latest"
 
   "build": {
-    "dockerfile": "./.devcontainer/Dockerfile",
-    "context": ".."
+    "dockerfile": "Dockerfile",
   },
 }
