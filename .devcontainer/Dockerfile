@@ -13,8 +13,8 @@ RUN apt-get -qq update \
     libssl-dev
 
 # wasm-pack is your one-stop shop for building, testing, and publishing Rust-generated WebAssembly.
-#RUN curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+RUN curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 
 # cargo-generate helps you get up and running quickly with a new Rust project by leveraging a pre-existing git
 # repository as a template.
-#RUN cargo install cargo-generate
+RUN cargo install cargo-generate
