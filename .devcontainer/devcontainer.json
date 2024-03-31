@@ -4,6 +4,6 @@
   "name": "Rust Playground",
 
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "./Dockerfile"
   },
 }
